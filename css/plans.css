@@ -87,7 +87,7 @@
 .plans-item-info li {
     font-size: 1.6rem;
     padding-left: 2rem; 
-    background-image: url('/images/svg/arrow-right.svg'); 
+    background-image: url('../images/svg/arrow-right.svg'); 
     background-size: 1.6rem 1.6rem; 
     background-repeat: no-repeat;
     background-position: 0 50%;
