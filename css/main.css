@@ -1,0 +1,183 @@
+.main-wrapper {
+    margin: auto;
+    overflow: hidden;
+}
+
+.main {
+    width: 100%;
+    position: relative;
+
+    margin-top: 3rem;
+}
+
+.main-image {
+    display: flex;
+
+    height: 30rem;
+    width: 100%;
+    
+    position: relative;
+    
+}
+
+.main-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: right;
+    justify-content: flex-end;
+
+    border-bottom: 3px solid var(--laranja);
+
+    z-index: 2;
+}
+
+.main-image-o {
+    display: inline-block;
+
+    position: absolute;
+    top: 5%;
+    right: 5%;
+
+    font-size: 20rem;
+    font-weight: 500;
+
+    opacity: 15%;
+
+    color: var(--laranja);
+
+    z-index: -1;
+}
+.main-image-text {
+    display: inline-block;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    font-size: 5rem;
+    font-weight: 800;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+    opacity: 15%;
+}
+
+.main-title {
+    position: absolute;
+    top: 15%;
+    left: 3%;
+
+    font-size: clamp(1.8rem, 7vw, 8rem);
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.main-title span {
+    -webkit-text-stroke: 1px #fff;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-content {
+    padding: 2rem;
+
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+}
+
+.main-sub_title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--laranja);
+}
+
+.main-text {
+    font-size: 1.8rem;
+    text-align: justify;
+    hyphens: auto;
+}
+
+.main-link {
+    align-self: center;
+}
+
+.main-link a {
+    display: inline-block;
+
+    background-color: var(--laranja);
+    color: var(--branco);
+
+    height: 100%;
+
+    padding: 2rem;
+    
+    font-size: 1.8rem;
+    
+    border-radius: .5rem;
+    
+    transition: all ease .3s;
+}
+
+.main-link:hover a {
+    background-color: var(--laranja-escuro);
+}
+
+@media screen and (min-width: 480px) {
+    
+}
+
+@media screen and (min-width: 768px) {
+    .main {
+        height: 70rem;
+
+        margin-top: unset;
+    }
+
+    .main-title {
+        position: unset;
+    }
+
+    .main-content {
+        position: absolute;
+        top: 0;
+
+        width: 55%;
+        height: 100%;
+
+        padding-left: 5rem;
+
+        justify-content: center;
+    }
+
+    .main-link {
+        margin-right: auto;
+    }
+
+    .main-image {
+        height: 100%;
+        width: unset;
+    }
+
+    .main-image-o {
+        top: 0%;
+        right: 3%;
+    
+        font-size: 50rem;
+    }
+    .main-image-text {
+        bottom: 0;
+        right: 10%;
+    
+        font-size: 15rem;
+        font-weight: 800;
+        letter-spacing: clamp(1rem, 1.5vw, 2rem);
+        text-transform: uppercase;
+    
+        opacity: 15%;
+    }
+}
+
+@media screen and (min-width: 1279px) {
+    
+}
