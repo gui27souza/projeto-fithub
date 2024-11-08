@@ -86,15 +86,11 @@
 
 .plans-item-info li {
     font-size: 1.6rem;
-    display: flex;
-    align-items: flex-end;
-}
-
-.plans-item-info li svg {
-    height: 100%;
-    margin-right: .6rem;
-    position: relative;
-    bottom: -2px;
+    padding-left: 2rem; 
+    background-image: url('../images/svg/arrow-right.svg'); 
+    background-size: 1.8rem 1.8rem; 
+    background-repeat: no-repeat;
+    background-position: 0 50%;
 }
 
 .plans-item-link {
